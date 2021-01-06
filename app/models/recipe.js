@@ -17,10 +17,10 @@ const recipeSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  image: {
-    type: URL,
-    required: false
-  },
+  // image: {
+  //   type: ,
+  //   required: false
+  // },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
