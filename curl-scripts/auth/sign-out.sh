@@ -1,6 +1,6 @@
 #!/bin/bash
 
-API="http://localhost:4741"
+API="https://sergeys-recipe-book-project.herokuapp.com"
 URL_PATH="/sign-out"
 
 curl "${API}${URL_PATH}/" \

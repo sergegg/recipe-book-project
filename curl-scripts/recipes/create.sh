@@ -1,6 +1,6 @@
 # sh curl-scripts/index.sh
 
-curl 'http://localhost:4741/recipes' \
+curl 'https://sergeys-recipe-book-project.herokuapp.com/recipes' \
   --include \
   --request POST \
   --header "Content-Type: application/json" \
