@@ -17,6 +17,10 @@ const recipeSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  prepTime: {
+    type: Number,
+    required: true
+  },
   // image: {
   //   type: ,
   //   required: false

@@ -10,6 +10,7 @@ curl 'https://sergeys-recipe-book-project.herokuapp.com/recipes' \
       "name": "'"${NAME}"'",
       "category": "'"${CATEGORY}"'",
       "ingredients": "'"${INGREDIENTS}"'",
-      "cuisine": "'"${CUISINE}"'"
+      "cuisine": "'"${CUISINE}"'",
+      "prepTime": "'"${PREPTIME}"'"
     }
   }'
